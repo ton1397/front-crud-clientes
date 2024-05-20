@@ -18,7 +18,7 @@
           <th class="text-left">Endereco</th>
           <th class="text-left">Cidade</th>
           <th class="text-left">Arquivo</th>
-          <th class="text-left">Aões</th>
+          <th class="text-left">Ações</th>
         </tr>
       </thead>
       <tbody>
