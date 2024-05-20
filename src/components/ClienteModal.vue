@@ -123,7 +123,7 @@ export default {
         this.cep = ''
         this.endereco = ''
         this.cidade = ''
-        this.arquivo = ''
+        this.file = ''
         this.fileLink = ''
         this.changeFile = false
         this.formSubmit = false

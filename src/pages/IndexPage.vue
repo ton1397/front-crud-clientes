@@ -29,7 +29,7 @@
             </strong>
           </td>
         </tr>
-        <tr v-for="item in listaClientes" :key="item.id" @dblclick="editarCliente(item)">
+        <tr class="table-row" v-for="item in listaClientes" :key="item.id" @dblclick="editarCliente(item)">
           <td>{{ item.nome }}</td>
           <td>{{ item.cep }}</td>
           <td>{{ item.endereco }}</td>
@@ -87,7 +87,7 @@ export default {
     };
   },
   created() {
-    // this.getClientes();
+    this.getClientes();
   },
   methods: {
     getClientes() {
@@ -181,5 +181,9 @@ h3, .loading-spinner {
 .add-user {
   text-align: end;
   margin-bottom: 10px;
+}
+
+.table-row:hover {
+  cursor: pointer;
 }
 </style>
