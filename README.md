@@ -3,11 +3,11 @@
 1. **Clone o Projeto**
    - Clone o repositório do projeto para sua máquina local:
      ```bash
-     git clone https://github.com/seu-usuario/seu-projeto.git
+     git clone https://github.com/ton1397/front-crud-clientes.git
      ```
    - Navegue até o diretório do projeto:
      ```bash
-     cd seu-projeto
+     cd front-crud-clientes
      ```
 
 2. **Instale as Dependências**
